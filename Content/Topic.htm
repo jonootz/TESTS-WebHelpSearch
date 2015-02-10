@@ -1,13 +1,103 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-
-<head>
-<link href="Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
-	<h1>Topic Title</h1>
-
-	<p>Delete this text and replace it with your own content.</p>
-
-</body>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="624" MadCap:lastWidth="624">
+    <head>
+        <link href="Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Bug 89456</h1>
+        <table>
+            <col />
+            <tbody>
+                <tr>
+                    <td><b>Search no longer finds results when combined with underscores if Partial Search is not turned on</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Copy and open the attached project ("Steps" folder) in V10</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Build WebHelp and View</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Search for “TBL_VAL” =  no results</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Search for “TBL_VAL_” = no results</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>If you repeat in Flare 9 - you get results</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Basically we are only searching for "TBL_VAL" and not "TBL" and "VAL"</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b style="font-style: italic;">Should maintain search functionality through the versions. We should be searching for "TBL_VAL" and "TBL" and "VAL" (previous version behavior).</b>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <table>
+            <col />
+            <tbody>
+                <tr>
+                    <td>. , / : ; \ * &lt; &gt; ! @ [ ] ( ) { }</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <table>
+            <col />
+            <tbody>
+                <tr>
+                    <td>Rick Martin (4 days ago)</td>
+                </tr>
+                <tr>
+                    <td>Associated with changeset 76622: [Flare 11] Bug #89456 - Updated WebHelp runtime parser to use same term separators as compiler (and WebHelp2). Underscores are now considered term connectors, not separators.</td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>Vince Denosta (3 weeks ago)</td>
+                </tr>
+                <tr>
+                    <td>Are we going to a shift now with changes made for Search in Flare 11? If so, then OOC?</td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>Jay Wulkowicz (5 months ago)</td>
+                </tr>
+                <tr>
+                    <td>Kicking this NV for now. We are going to stick with the google style of searching where underscores are joiners, not separators.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
 </html>
