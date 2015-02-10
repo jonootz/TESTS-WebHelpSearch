@@ -7,21 +7,21 @@
       Icon="System.Drawing.Bitmap"
       Name="H5_top-nav"
       Type="HTML5"
-      Build="true"
-      LastBuilt="2/9/2015 6:36:32 PM"
+      Build="false"
+      LastBuilt=""
       LastPublished="" />
     <Target
       Icon="System.Drawing.Bitmap"
       Name="H5_top-nav_PSearch"
       Type="HTML5"
-      LastBuilt="2/9/2015 6:36:33 PM"
+      LastBuilt=""
       LastPublished="" />
     <Target
       Icon="System.Drawing.Bitmap"
       Name="H5_tri-pane"
       Type="HTML5"
       Build="true"
-      LastBuilt="2/9/2015 6:36:32 PM"
+      LastBuilt=""
       LastPublished="" />
     <Target
       Icon="System.Drawing.Bitmap"
@@ -34,13 +34,13 @@
       Name="Web"
       Type="WebHelp"
       Build="true"
-      LastBuilt="2/9/2015 6:36:39 PM"
+      LastBuilt=""
       LastPublished="" />
     <Target
       Icon="System.Drawing.Bitmap"
       Name="Web_PSearch"
       Type="WebHelp"
-      LastBuilt="2/9/2015 6:36:40 PM"
+      LastBuilt=""
       LastPublished="" />
   </Targets>
 </CatapultBatchTarget>

@@ -5,9 +5,21 @@
   <Targets>
     <Target
       Icon="System.Drawing.Bitmap"
+      Name="H5_top-nav"
+      Type="HTML5"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
       Name="H5_top-nav_PSearch"
       Type="HTML5"
-      Build="true"
+      Build="false"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="H5_tri-pane"
+      Type="HTML5"
       LastBuilt=""
       LastPublished="" />
     <Target
@@ -15,6 +27,12 @@
       Name="H5_tri-pane_PSearch"
       Type="HTML5"
       Build="true"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Web"
+      Type="WebHelp"
       LastBuilt=""
       LastPublished="" />
     <Target
