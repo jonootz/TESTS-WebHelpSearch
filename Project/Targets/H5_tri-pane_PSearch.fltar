@@ -5,8 +5,8 @@
   Type="WebHelp2"
   Destinations=""
   GlossaryTermConversion="marked"
-  PartialWordSearch="false"
-  Skin="/Project/Skins/HTML5 - Top Navigation.flskn">
+  PartialWordSearch="true"
+  Skin="/Project/Skins/HTML5 - Tripane.flskn">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"

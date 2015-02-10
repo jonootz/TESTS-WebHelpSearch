@@ -1,12 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
-  Comment="MadCap HTML5 Target"
-  Type="WebHelp2"
+  Comment="New Target"
+  Type="WebHelp"
   Destinations=""
   GlossaryTermConversion="marked"
-  PartialWordSearch="false"
-  Skin="/Project/Skins/HTML5 - Top Navigation.flskn">
+  PartialWordSearch="true">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
